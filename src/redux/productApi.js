@@ -18,7 +18,7 @@ export const productApi = createApi({
     // query is an alternative of "GET" method
     // A query that is used to get the list of products.
     getProduct: build.query({
-      query: (limit = '') => `product?${limit && `_limit=${limit}`}`,
+      query: () => `product`,
       providesTags: (result) =>
         result
           ? [

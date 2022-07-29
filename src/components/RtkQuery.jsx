@@ -40,7 +40,7 @@ const RtkQuery = () => {
   return (
     <>
       <div className='add-user'>
-        <h1>Rtk Query</h1>
+        <h1>Rtk Query example</h1>
         <div>
           <input
             type='text'
